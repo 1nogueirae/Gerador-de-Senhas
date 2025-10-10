@@ -10,20 +10,26 @@ main {
     margin: 0 auto;
 }
 
-.hero {
+header {
     text-align: center;
     padding-bottom: 3rem;
 }
 
-.hero .title {
+header .title {
     font-size: 2rem;
     font-weight: bold;
     padding-bottom: 1.5rem;
 }
 
-.hero .subtitle {
+header .subtitle {
     font-size: 1.125rem;
     color: #828282;
+}
+
+header {
+    border-bottom: 1px solid #f0f0f0;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
 }
 
 .box {
@@ -198,4 +204,15 @@ main {
 
 .submit button:hover {
     background-color: #9b51e0;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 -1px 4px rgba(132, 148, 165, 0.2);
+    padding: 1rem 0;
+    text-align: center;
 }
